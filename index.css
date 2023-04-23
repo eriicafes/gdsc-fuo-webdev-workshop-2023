@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 16px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul li:hover {
+    background-color: #cecece;
+    color: black;
+}
+
+#right-header-list li:hover {
+    background-color: red;
+    color: white;
+}
